@@ -27,7 +27,7 @@ SECRET_KEY = 'qwj6i8je9vj%s4#yk2qj7-o^&=tcaq3mfs^%1-i7bu!+_+=15#'
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1','multicare-hospital.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','multicare-hospital.herokuapp.com']
 
 # Application definition
 
