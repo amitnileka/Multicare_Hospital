@@ -397,7 +397,7 @@ def adminhome(request):
         'total': total,
         'appointmentlist': appointmentlist
     }
-    return render(request, 'adminDash.html', context=mydict)
+    return render(request, 'AdminDash.html', context=mydict)
 
 
 def adminaddpatient(request):
