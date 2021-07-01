@@ -45,6 +45,7 @@ urlpatterns = [
     path('adminviewpatient/',adminviewpatient,name='adminviewpatient'),
     path('adminviewdoctor/',adminviewdoctor,name='adminviewdoctor'),
     path('adminappointment/',adminappointment,name='adminappointment'),
+    path('AdminDeleteAppointment<int:pid>',admin_delete_appointment,name='admin_delete_appointment'),
     path('adminDeleteDoctor<int:pid><str:username>',admin_delete_doctor,name='admin_delete_doctor'),
     path('adminDeletepatient<int:pid><str:username>',admin_delete_patient,name='admin_delete_patient'),
     path('prescription<int:pid>/',add_prescrip,name='add_prescrip'),
