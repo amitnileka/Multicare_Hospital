@@ -249,7 +249,7 @@ def MakeAppointments(request):
             a = Appointment.objects.filter(
                 appointmentdate=appointmentdate,appointmenttime=appointmenttime).count()
             print(a)
-            if a <= 1:
+            if a <= 49:
 
                 try:
                     Appointment.objects.create(doctorname=doctorname, username=username, patientemail=patientemail,
